@@ -18,31 +18,32 @@ namespace Märkmete_haldamine
 
             if (cmd == "new")
             {
-                
-                New new1 = new New();
+                Uus new1 = new Uus();
+                Console.WriteLine("Sisestage faili nimi: ");
                 new1.FailiNimi = Console.ReadLine();
-                Console.WriteLine("Palun lisage märkus");
+                Console.WriteLine("Palun lisage märkus: ");
                 new1.Märkus = Console.ReadLine();
+                Console.WriteLine(new1.path);
             }
 
-            if (cmd == "read")
+            else if (cmd == "read")
             {
 
             }
 
-            if (cmd == "delete")
+            else if (cmd == "delete")
             {
 
+            }
+
+            else if (cmd == "exit")
+            {
+                Environment.Exit(0);
             }
 
             else
             {
                 Console.WriteLine("Commandid on: new; read; delete");
-            }
-
-            if (cmd == "exit")
-            {
-                Environment.Exit(0);
             }
 
             Console.ReadLine();

@@ -7,7 +7,7 @@ using System.IO;
 
 namespace Märkmete_haldamine
 {
-    class New
+    class Uus
     {
         public string path = Directory.GetCurrentDirectory();
         public string FailiNimi { get; set; }
