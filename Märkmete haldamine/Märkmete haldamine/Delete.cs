@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 //4. Kasutaja saab märkmeid kustutada käsuga Delete -Failinimi-
 
 namespace Märkmete_haldamine
@@ -12,8 +13,9 @@ namespace Märkmete_haldamine
         public Delete()
         {
             string input = Console.ReadLine();
+            
 
-            if (input == (File.Exist))
+            if (!File.Exists(input))
             {
 
                 File.Delete(input);
