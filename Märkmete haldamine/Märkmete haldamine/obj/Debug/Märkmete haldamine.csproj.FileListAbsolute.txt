@@ -1,0 +1,6 @@
+C:\Users\kertm\OneDrive\Dokumendid\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.exe.config
+C:\Users\kertm\OneDrive\Dokumendid\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.exe
+C:\Users\kertm\OneDrive\Dokumendid\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.pdb
+C:\Users\kertm\OneDrive\Dokumendid\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\obj\Debug\Märkmete haldamine.csproj.CoreCompileInputs.cache
+C:\Users\kertm\OneDrive\Dokumendid\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\obj\Debug\Märkmete haldamine.exe
+C:\Users\kertm\OneDrive\Dokumendid\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\obj\Debug\Märkmete haldamine.pdb
