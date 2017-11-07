@@ -18,6 +18,7 @@ namespace Märkmete_haldamine
             using (StreamWriter sw = File.CreateText(Path.Combine(path, FailiNimi + ".txt")))
             {
                 sw.WriteLine(Märkus);
+
             }
         }
     }

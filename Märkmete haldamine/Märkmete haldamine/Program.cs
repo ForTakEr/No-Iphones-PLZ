@@ -24,6 +24,7 @@ namespace Märkmete_haldamine
                 Console.WriteLine("Palun lisage märkus: ");
                 new1.Märkus = Console.ReadLine();
                 new1.New();
+
             }
 
             else if (cmd == "read")
