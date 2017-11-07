@@ -20,6 +20,17 @@ namespace Märkmete_haldamine
             {
                 Console.WriteLine(file.Name);
             }
+            Console.WriteLine("Millist tahad avada?");
+            string vastus = Console.ReadLine();
+            if (File.Exists(Path.Combine(path, vastus + ".txt")))
+            {
+                string text = File.ReadAllText((Path.Combine(path, vastus + ".txt")));
+                Console.WriteLine("Märkme sees on: {0}", text);
+            }
+            else
+            {
+                Console.WriteLine("See pole üks failidest");
+            }
         }
     }
 }
