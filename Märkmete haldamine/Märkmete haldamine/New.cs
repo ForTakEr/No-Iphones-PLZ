@@ -14,7 +14,7 @@ namespace Märkmete_haldamine
         public string Märkus { get; set; }
         public void New()
         {
-            // Create a file to write to.
+            
             using (StreamWriter sw = File.CreateText(Path.Combine(path, FailiNimi + ".txt")))
             {
                 sw.WriteLine(Märkus);

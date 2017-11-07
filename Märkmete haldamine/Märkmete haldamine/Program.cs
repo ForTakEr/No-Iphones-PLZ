@@ -23,7 +23,7 @@ namespace Märkmete_haldamine
                 new1.FailiNimi = Console.ReadLine();
                 Console.WriteLine("Palun lisage märkus: ");
                 new1.Märkus = Console.ReadLine();
-                Console.WriteLine(new1.path);
+                new1.New();
             }
 
             else if (cmd == "read")
