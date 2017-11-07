@@ -17,3 +17,4 @@ C:\Users\Simo\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete hald
 C:\Users\Simo\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\obj\Debug\Märkmete haldamine.csproj.CoreCompileInputs.cache
 C:\Users\Simo\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\obj\Debug\Märkmete haldamine.exe
 C:\Users\Simo\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\obj\Debug\Märkmete haldamine.pdb
+C:\Users\Gert\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\obj\Debug\Märkmete haldamine.csproj.CoreCompileInputs.cache

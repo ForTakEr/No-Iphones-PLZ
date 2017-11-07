@@ -10,24 +10,20 @@ namespace Märkmete_haldamine
 {
     class Delete
     {
-        public Delete()
+        string path = Directory.GetCurrentDirectory();
+        public void Kustuta()
         {
+            Console.WriteLine("Sisesta faili nimi mida kustutada: ");
             string input = Console.ReadLine();
-
-            if (!File.Exists(input))
+            if (File.Exists(Path.Combine(path, input + ".txt")))
             {
-
-                File.Delete(input);
+                File.Delete(Path.Combine(path, input + ".txt"));
             }
             else
             {
                 Console.WriteLine("sisestatu on vale");
             }
-
         }
-        
-
-
     }      
     
 }

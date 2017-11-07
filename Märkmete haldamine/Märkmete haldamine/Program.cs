@@ -12,6 +12,7 @@ namespace Märkmete_haldamine
         static void Main(string[] args)
         {
             //IM ALIVE
+            algus:
             Console.WriteLine("Palun valige, mida teha soovite");
             Console.WriteLine("Commandid on: new; read; delete; exit");
             string cmd = Console.ReadLine();
@@ -24,17 +25,21 @@ namespace Märkmete_haldamine
                 Console.WriteLine("Palun lisage märkus: ");
                 new1.Märkus = Console.ReadLine();
                 new1.New();
-
+                goto algus;
             }
 
             else if (cmd == "read")
             {
-
+                Read lugemine = new Read();
+                lugemine.Loendur();
+                goto algus;
             }
 
             else if (cmd == "delete")
             {
-
+                Delete kustuta = new Delete();
+                kustuta.Kustuta();
+                goto algus;
             }
 
             else if (cmd == "exit")
@@ -44,10 +49,8 @@ namespace Märkmete_haldamine
 
             else
             {
-                Console.WriteLine("Commandid on: new; read; delete");
+                goto algus;
             }
-
-            Console.ReadLine();
         }
     }
 }
