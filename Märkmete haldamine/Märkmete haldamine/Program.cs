@@ -34,7 +34,8 @@ namespace Märkmete_haldamine
                 Console.WriteLine("Palun lisage märkus: ");                
                 string vastus = Console.ReadLine();
                 new1.Märkus = Console.ReadLine();
-                new1.New();                                        
+                new1.New();
+                goto algus;
 
             }
 
