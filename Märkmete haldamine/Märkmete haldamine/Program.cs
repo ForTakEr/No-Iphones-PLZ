@@ -32,11 +32,9 @@ namespace Märkmete_haldamine
                 Console.WriteLine("Sisestage faili nimi: ");
                 new1.FailiNimi = Console.ReadLine();
                 Console.WriteLine("Palun lisage märkus: ");                
-                string vastus = Console.ReadLine();
                 new1.Märkus = Console.ReadLine();
                 new1.New();
                 goto algus;
-
             }
 
             else if (cmd == "read")
