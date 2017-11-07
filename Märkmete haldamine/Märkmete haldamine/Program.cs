@@ -13,6 +13,15 @@ namespace Märkmete_haldamine
         {
             //IM ALIVE
             algus:
+            string path = Directory.GetCurrentDirectory();
+            DirectoryInfo dinfo = new DirectoryInfo(path);
+            FileInfo[] Files = dinfo.GetFiles("*.txt");
+            Console.WriteLine("Olemas olevad failid on: ");
+            foreach (FileInfo file in Files)
+            {
+                Console.WriteLine(file.Name);
+            }
+
             Console.WriteLine("Palun valige, mida teha soovite");
             Console.WriteLine("Commandid on: new; read; delete; exit");
             string cmd = Console.ReadLine();
@@ -22,10 +31,11 @@ namespace Märkmete_haldamine
                 Uus new1 = new Uus();
                 Console.WriteLine("Sisestage faili nimi: ");
                 new1.FailiNimi = Console.ReadLine();
-                Console.WriteLine("Palun lisage märkus: ");
+                Console.WriteLine("Palun lisage märkus: ");                
+                string vastus = Console.ReadLine();
                 new1.Märkus = Console.ReadLine();
-                new1.New();
-                goto algus;
+                new1.New();                                        
+
             }
 
             else if (cmd == "read")

@@ -29,7 +29,7 @@ namespace Märkmete_haldamine
             }
             else
             {
-                Console.WriteLine("sisestatu on vale");
+                Console.WriteLine("Sisestatu on vigane!");
             }
         }
     }      
