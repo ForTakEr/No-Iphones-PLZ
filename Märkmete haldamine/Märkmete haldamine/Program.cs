@@ -10,6 +10,7 @@ namespace Märkmete_haldamine
     {
         static void Main(string[] args)
         {
+            //IM ALIVE
         }
     }
 }
