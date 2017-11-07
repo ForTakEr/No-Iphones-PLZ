@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Märkmete_haldamine
 {
-    class Program
+    class Read
     {
-        static void Main(string[] args)
-        {
-            //IM ALIVE
-
-        }
     }
 }

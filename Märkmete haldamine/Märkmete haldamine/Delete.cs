@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Märkmete_haldamine
 {
-    class Program
+    class Delete
     {
-        static void Main(string[] args)
-        {
-            //IM ALIVE
-
-        }
     }
 }
