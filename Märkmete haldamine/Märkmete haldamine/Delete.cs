@@ -13,6 +13,14 @@ namespace Märkmete_haldamine
         string path = Directory.GetCurrentDirectory();
         public void Kustuta()
         {
+            //Siin kirjutab välja kõik failid, mis on directorys
+            DirectoryInfo dinfo = new DirectoryInfo(path);
+            FileInfo[] Files = dinfo.GetFiles("*.txt");
+            Console.WriteLine("Saadaval märkmed on: ");
+            foreach (FileInfo file in Files)
+            {
+                Console.WriteLine(file.Name);
+            }
             Console.WriteLine("Sisesta faili nimi mida kustutada: ");
             string input = Console.ReadLine();
             if (File.Exists(Path.Combine(path, input + ".txt")))

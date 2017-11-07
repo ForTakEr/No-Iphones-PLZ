@@ -13,6 +13,7 @@ namespace Märkmete_haldamine
 
         public void Loendur()
         {
+            //Siin kirjutab välja kõik failid, mis on directorys
             DirectoryInfo dinfo = new DirectoryInfo(path);
             FileInfo[] Files = dinfo.GetFiles("*.txt");
             Console.WriteLine("Saadaval märkmed on: ");
