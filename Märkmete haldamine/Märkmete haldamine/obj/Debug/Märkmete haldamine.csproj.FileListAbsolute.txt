@@ -21,3 +21,6 @@ C:\Users\Gert\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete hald
 C:\Users\Simo\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.exe.config
 C:\Users\Simo\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.exe
 C:\Users\Simo\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.pdb
+C:\Users\opilane\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.exe.config
+C:\Users\opilane\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.exe
+C:\Users\opilane\Documents\GitHub\No-Iphones-PLZ\Märkmete haldamine\Märkmete haldamine\bin\Debug\Märkmete haldamine.pdb

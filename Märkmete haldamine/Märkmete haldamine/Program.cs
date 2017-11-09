@@ -16,6 +16,7 @@ namespace Märkmete_haldamine
             string path = Directory.GetCurrentDirectory();
             DirectoryInfo dinfo = new DirectoryInfo(path);
             FileInfo[] Files = dinfo.GetFiles("*.txt");
+            Console.WriteLine("----------------------------------------------------------");
             Console.WriteLine("Olemas olevad failid on: ");
             foreach (FileInfo file in Files)
             {
@@ -24,6 +25,7 @@ namespace Märkmete_haldamine
 
             Console.WriteLine("Palun valige, mida teha soovite");
             Console.WriteLine("Commandid on: new; read; delete; exit");
+            Console.WriteLine("----------------------------------------------------------");
             string cmd = Console.ReadLine();
 
             if (cmd == "new")
@@ -33,6 +35,7 @@ namespace Märkmete_haldamine
                 new1.FailiNimi = Console.ReadLine();
                 Console.WriteLine("Palun lisage märkus: ");                
                 new1.Märkus = Console.ReadLine();
+                Console.WriteLine();
                 new1.New();
                 goto algus;
             }
@@ -41,6 +44,7 @@ namespace Märkmete_haldamine
             {
                 Read lugemine = new Read();
                 lugemine.Loendur();
+                Console.WriteLine();
                 goto algus;
             }
 
@@ -48,6 +52,7 @@ namespace Märkmete_haldamine
             {
                 Delete kustuta = new Delete();
                 kustuta.Kustuta();
+                Console.WriteLine();
                 goto algus;
             }
 
